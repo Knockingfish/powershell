@@ -1,0 +1,7 @@
+# William Fabian
+[int]$numero = 10
+while ($numero -ge 1) 
+{ 
+    Write-Host $numero
+    $numero--
+}

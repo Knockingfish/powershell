@@ -1,0 +1,15 @@
+Write-Output "This script calculates the daily electrical consumption in kWhr of an appliance, the daily cost for the appliance and the annual cost."
+
+[int32]$watt = Read-Host "`nWhat is the power of the electric fan in watts?"
+[int32]$hour = Read-Host "`nFor how many hours a day do you use your fan?"
+[float]$euro = Read-Host "`nHow many cents does it cost you to use per kWh?"
+
+[float]$kwhr = ($watt * $hour) / 1000
+[float]$dayeuro = ($kwhr * $euro) / 100
+[float]$yeareuro = $dayeuro * 365
+
+Write-Output "`nThe daily consumption of the electric fan in kWh is $kwhr."
+Write-Output "The daily cost of running the electric fan is $dayeuro euros."
+Write-Output "The annual cost of running the electric fan is $yeareuro euros."
+
+Read-Host -Prompt "Press Enter to exit:"

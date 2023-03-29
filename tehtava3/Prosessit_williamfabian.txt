@@ -1,0 +1,1 @@
+Get-Process | Out-File -FilePath .\prosessit.txt; Get-Process; Read-Host -Prompt ' '

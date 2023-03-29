@@ -1,0 +1,1 @@
+hostname; hostname | Out-File -FilePath .\hostprosessit.txt; Get-Process; Get-Process | Add-Content .\hostprosessit.txt; Read-Host -Prompt '-'
