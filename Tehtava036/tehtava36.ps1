@@ -1,8 +1,8 @@
 # William Fabian
 Import-Module Send-MailKitMessage
 
-$sender_email = "varia.skriptaus.testimaili@gmail.com"
-$sender_password = "tauvqscpqgqxuhlo"
+$sender_email = "william.cloud.nine@gmail.com"
+$sender_password = "orqwjfaakrkcwfys"
 $recipient_email = "william.cloud.nine@gmail.com"
 
 $message = New-Object MimeKit.MimeMessage
