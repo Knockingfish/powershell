@@ -1,3 +1,3 @@
 # powershell
 
-Shitty powershell scripts
+Top notch powershell scripts
